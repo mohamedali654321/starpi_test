@@ -1,0 +1,24 @@
+{
+    "link": "رابط",
+    "Settings.email.plugin.button.test-email": "إرسال بريد إلكتروني تجريبي",
+    "Settings.email.plugin.label.defaultFrom": "البريد الإلكتروني الافتراضي للمرسل",
+    "Settings.email.plugin.label.defaultReplyTo": "البريد الإلكتروني الافتراضي للاستجابة",
+    "Settings.email.plugin.label.provider": "مقدم خدمة البريد الإلكتروني",
+    "Settings.email.plugin.label.testAddress": "البريد الإلكتروني للمرسل إليه",
+    "Settings.email.plugin.notification.config.error": "فشل استرداد تهيئة البريد الإلكتروني",
+    "Settings.email.plugin.notification.data.loaded": "تم تحميل بيانات إعدادات البريد الإلكتروني",
+    "Settings.email.plugin.notification.test.error": "فشل إرسال بريد تجريبي إلى {to}",
+    "Settings.email.plugin.notification.test.success": "نجح اختبار البريد الإلكتروني، تحقق من صندوق بريد {to}",
+    "Settings.email.plugin.placeholder.defaultFrom": "على سبيل المثال: سترابي بدون رد <no-reply@strapi.io>",
+    "Settings.email.plugin.placeholder.defaultReplyTo": "على سبيل المثال: سترابي <example@strapi.io>",
+    "Settings.email.plugin.placeholder.testAddress": "على سبيل المثال: developer@example.com",
+    "Settings.email.plugin.subTitle": "اختبر إعدادات برنامج البريد الإلكتروني المساعد",
+    "Settings.email.plugin.text.configuration": "تتم تهيئة البرنامج المساعد عبر ملف {file}، راجع هذا الرابط {link} للتوثيق.",
+    "Settings.email.plugin.title": "تهيئة",
+    "Settings.email.plugin.title.config": "تهيئة",
+    "Settings.email.plugin.title.test": "اختبار توصيل البريد الإلكتروني",
+    "SettingsNav.link.settings": "الإعدادات",
+    "SettingsNav.section-label": "برنامج البريد الإلكتروني المساعد",
+    "components.Input.error.validation.email": "هذا البريد الإلكتروني غير صالح"
+  }
+  

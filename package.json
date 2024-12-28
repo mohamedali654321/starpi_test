@@ -1,0 +1,44 @@
+{
+  "name": "blog-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@akilli/ckeditor4-build-classic": "^0.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@jerseywatch/ckeditor4-react": "^0.1.2",
+    "@strapi/plugin-documentation": "^4.10.7",
+    "@strapi/plugin-i18n": "4.10.7",
+    "@strapi/plugin-users-permissions": "4.10.7",
+    "@strapi/provider-email-nodemailer": "^4.11.0",
+    "@strapi/strapi": "4.10.7",
+    "better-sqlite3": "^7.6.2",
+    "ckeditor-full": "^4.7.3",
+    "ckeditor4-react": "^1.4.2",
+    "ckeditor4-react-advanced": "^1.1.7",
+    "ckeditor5-build-full-plugins": "^12.0.7",
+    "knex": "0.21.18",
+    "react-ckeditor-4": "^4.11.1",
+    "react-ckeditor-component": "^1.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "d35eceb6-bed6-48d9-b296-24a8b99d8d04"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

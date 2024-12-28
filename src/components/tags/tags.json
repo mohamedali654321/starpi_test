@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tags_tags",
+  "info": {
+    "icon": "circle-notch",
+    "displayName": "tags"
+  },
+  "options": {},
+  "attributes": {
+    "word": {
+      "type": "string"
+    }
+  }
+}

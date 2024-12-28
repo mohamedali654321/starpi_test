@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "Statistic",
+    "name": "statistic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "like": {
+      "type": "integer"
+    },
+    "dislike": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "mappedBy": "statistic"
+    }
+  }
+}
